@@ -10,7 +10,8 @@
     "build": "npm run clean && cd client && npm run build",
     "clean": "cd client && rm -rf dist",
     "install": "cd server && npm i && cd ../client && npm i",
-    "client": "cd client && npm start"
+    "client": "cd client && npm start",
+    "postinstall": "cd client && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
