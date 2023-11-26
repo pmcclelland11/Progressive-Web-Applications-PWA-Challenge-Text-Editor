@@ -7,7 +7,7 @@
   },
   "author": "Patrick McClelland",
   "license": "UNLICENSED",
-  "devDependencies": {
+  "dependencies": {
     "@babel/core": "^7.15.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
     "@babel/plugin-transform-runtime": "^7.15.0",
@@ -24,7 +24,7 @@
     "webpack-pwa-manifest": "^4.3.0",
     "workbox-webpack-plugin": "^6.2.4"
   },
-  "dependencies": {
+  "devDependencies": {
     "code-mirror-themes": "^1.0.0",
     "idb": "^6.1.2"
   },
