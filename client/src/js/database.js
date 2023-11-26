@@ -1,4 +1,4 @@
-import { openDB } from 'idb';
+import { openDB } from 'IDB';
 
 const initdb = async () =>
   openDB('jate', 1, {
@@ -31,7 +31,7 @@ export const putDb = async (content) => {
 
 // Added logic for a method that gets all the content from the database
 export const getDb = async () => {
-  const db = await openDB('jate', 1);
+  const db = await openDB('jate', 1); 
   const tx = db.transaction('jate', 'readonly');
 
   try {
